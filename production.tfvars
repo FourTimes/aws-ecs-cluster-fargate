@@ -1,6 +1,6 @@
 # ecs_domain_name = "YOUR_ROUTE53_DOMAIN"
 ecs_cluster_name = "Production-ECS-Cluster"
-region           = "eu-west-1"
+region           = "us-east-1"
 # VPC variables for production
 vpc_cidr              = "10.0.0.0/16"
 public_subnet_1_cidr  = "10.0.1.0/24"

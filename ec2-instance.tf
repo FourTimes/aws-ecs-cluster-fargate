@@ -8,7 +8,7 @@ data "template_file" "user_data_neo_server" {
 }
 
 resource "aws_instance" "neo-server" {
-  ami                    = "ami-0a8e758f5e873d1c1"
+  ami                    = "ami-0943382e114f188e8"
   instance_type          = "t2.micro"
   subnet_id              = aws_subnet.public-subnet-1.id
   vpc_security_group_ids = [aws_security_group.neo-security-group.id]
